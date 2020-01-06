@@ -1,1 +1,6 @@
+#percolation
 These codes study percolation for overdensity (`..._struc.c`) and underdensity (`..._void.c`) segments in the field for various threholds.
+
+The input file is required to have same format.
+
+The codes need mpicc to be compiled and mpirun/mpiexec for running. 
