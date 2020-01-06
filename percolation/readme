@@ -1,6 +1,6 @@
 #percolation
 These codes study percolation for overdensity (`..._struc.c`) and underdensity (`..._void.c`) segments in the field for various threholds.
-Let the field is a density field (\rho(x)): for a particular threshold \rho_{th}:
+Let us assume that the field is a density field (\rho(x)): for a particular threshold \rho_{th}:
 
 1. all the points with \rho(x)>=\rho_{th} falls in overdensity segment: cluster-statistics studied by NC_finder_all_parallel_new_struc.c
 2. all the points with \rho(x)<\rho_{th} falls in underdensity segment: cluster-statistics studied by NC_finder_all_parallel_new_void.c
