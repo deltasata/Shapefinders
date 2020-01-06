@@ -4,3 +4,7 @@ These codes study percolation for overdensity (`..._struc.c`) and underdensity (
 The input file is required to have same format.
 
 The codes need mpicc to be compiled and mpirun/mpiexec for running. 
+
+mpicc <code_name.c> -lm -o <name.o>
+mpirun -np <# of processors> ./<name.o> <rho_th_min> <rho_th_max> <no. of steps>
+
