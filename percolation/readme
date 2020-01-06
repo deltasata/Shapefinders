@@ -13,3 +13,6 @@ mpirun -np <# of processors> ./<name.o> <rho_th_min> <rho_th_max> <no. of steps>
 <no. of steps>= no of steps in the threshold
 by default the code takes linear steps from <rho_th_min> to <rho_th_max>. But it can be easily switched to logscale steps.
 
+The output of the percolation codes has 9 colums: rho_th,NC,ff, percolation_no, NN_max, count_max,ncpoints,count1, LCS.
+We possibly only need 1st (rho_th), 3rd (ff), 4th (percolation_no), 6th (count_max), 7th (ncpoints) and 9th (LCS). 
+The sharp transition in LCS vs FF plot should indicate percolation transition. 
