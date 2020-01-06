@@ -8,3 +8,8 @@ The codes need mpicc to be compiled and mpirun/mpiexec for running.
 mpicc <code_name.c> -lm -o <name.o>
 mpirun -np <# of processors> ./<name.o> <rho_th_min> <rho_th_max> <no. of steps>
 
+<rho_th_min>=minimum threshold
+<rho_th_max>=maximum threshold
+<no. of steps>= no of steps in the threshold
+by default the code takes linear steps from <rho_th_min> to <rho_th_max>. But it can be easily switched to logscale steps.
+
