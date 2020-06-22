@@ -1,9 +1,4 @@
-/*
- * MarchingCube.h
- *
- *  Created on: 13-Feb-2014
- *      Author: prakash
- */
+
 
 #ifndef MARCHINGCUBE_H_
 #define MARCHINGCUBE_H_

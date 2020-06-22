@@ -1,10 +1,3 @@
-/*
- * MarchingCube.c
- *
- *  Created on: Jan 12, 2013
- *      Author: prakash
- */
-
 # include "MarchingCube.h"
 # include "LookUpTable.h"
 # define N 10000
