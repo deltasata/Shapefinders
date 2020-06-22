@@ -1,5 +1,3 @@
-
-
 #ifndef MARCHINGCUBE_H_
 #define MARCHINGCUBE_H_
 # include <stdio.h>

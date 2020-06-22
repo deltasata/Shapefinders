@@ -1,10 +1,3 @@
-/*
- * main.c
- *
- *  Created on: 13-Feb-2014
- *      Author: prakash
- */
-
 # include "MarchingCube.h"
 
 int main(int argc, char **argv)  {
