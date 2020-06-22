@@ -170,7 +170,7 @@ int Drive_cluster(char *f1)
   fp=fopen(fcluster_stat, "w");
   fprintf(fp,"#NI = %d \t NJ = %d \t NK = %d \n",NI,NJ,NK);
   fprintf(fp,"#rho_th \t NC \t total_count \t NIJK \t FF \t percolation_no \t count_max \t LCS \t NN_max \t count_max_vol \t vol_max \t NN_max_vol \t vol_max_count \n");
-  fprintf(fp,"%.16lf \t %d \t %d \t %d \t %.16lf \t %d \t %d \t %.16lf \t %d \t %d \t %.16lf \t %d \t %d \n",rho_th,NC,count1,NIJK,ff1,percolation_no,count_max,LCS,NN_max,count_max_vol,vol_max,NN_max_vol,vol_max_count);
+  fprintf(fp,"%.16lf \t %d \t %d \t %d \t %.16lf \t %d \t %d \t %.16lf \t %d \t %.16lf \t %.16lf \t %d \t %d \n",rho_th,NC,count1,NIJK,ff1,percolation_no,count_max,LCS,NN_max,count_max_vol,vol_max,NN_max_vol,vol_max_count);
   fprintf(fp,"\n #bad_NE= %d\n",bad_NE);
   fclose(fp);
   //========================================================================================================
