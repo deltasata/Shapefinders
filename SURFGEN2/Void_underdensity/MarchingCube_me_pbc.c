@@ -148,7 +148,8 @@ void run(int NN) {  //run is used in main.c once
  	vol=compute_vol();
     	//imc=compute_imc(); //not needed
 
-    	imc = compute_curvature();
+    	imc=0.0;
+      //imc = compute_curvature();
     	
     	clean_all();
 
